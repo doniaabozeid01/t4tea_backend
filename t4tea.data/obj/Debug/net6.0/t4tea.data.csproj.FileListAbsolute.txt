@@ -1,0 +1,14 @@
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\bin\Debug\net6.0\t4tea.data.deps.json
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\bin\Debug\net6.0\t4tea.data.runtimeconfig.json
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\bin\Debug\net6.0\t4tea.data.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\bin\Debug\net6.0\t4tea.data.pdb
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.csproj.AssemblyReference.cache
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.GeneratedMSBuildEditorConfig.editorconfig
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.AssemblyInfoInputs.cache
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.AssemblyInfo.cs
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.csproj.CoreCompileInputs.cache
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\refint\t4tea.data.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.pdb
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\t4tea.data.genruntimeconfig.cache
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.data\obj\Debug\net6.0\ref\t4tea.data.dll
