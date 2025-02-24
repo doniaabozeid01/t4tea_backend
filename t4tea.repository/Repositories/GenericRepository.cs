@@ -116,7 +116,7 @@ namespace t4tea.repository.Repositories
 
         public async Task<IReadOnlyList<CartItems>> GetByUserIdAsync(string id)
         {
-            return await _context.Set<CartItems>().Include(x => x.Product).Include(x => x.User).Where(x => x.UserId == id).ToListAsync();
+            return await _context.Set<CartItems>().Include(x => x.Product).ThenInclude(x=>x.images).Include(x => x.User).Where(x => x.UserId == id).ToListAsync();
         }
 
 

@@ -863,14 +863,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "ProductId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "UserId",
-        "Type": "System.String",
-        "IsRequired": false
+        "Name": "favouriteDto",
+        "Type": "t4tea.service.favourite.Dtos.AddFavouriteDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

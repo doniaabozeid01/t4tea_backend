@@ -37,7 +37,7 @@ namespace t4tea.Controllers
         }
 
         [HttpPost("AddProductFavourite")]
-        public async Task<ActionResult> AddProductFavourite([FromForm] AddFavouriteDto favouriteDto)
+        public async Task<ActionResult> AddProductFavourite(AddFavouriteDto favouriteDto)
         {
             if (favouriteDto == null)
             {
@@ -82,11 +82,11 @@ namespace t4tea.Controllers
         public async Task<ActionResult<IReadOnlyList<FavouriteDto>>> DeleteProductFavourite(int id)
         {
             var fav = await _favouriteServices.GetProductFavouriteById(id);
-            var userId = fav.UserId ;
             if (fav == null)
             {
                 return NotFound($"Favourite with ID {id} not found.");
             }
+            var userId = fav.UserId ;
 
             var result = await _favouriteServices.DeleteProductFavourite(id);
             if (result == 0)

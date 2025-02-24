@@ -1549,26 +1549,19 @@
         ],
         "requestBody": {
           "content": {
-            "multipart/form-data": {
+            "application/json": {
               "schema": {
-                "type": "object",
-                "properties": {
-                  "ProductId": {
-                    "type": "integer",
-                    "format": "int32"
-                  },
-                  "UserId": {
-                    "type": "string"
-                  }
-                }
-              },
-              "encoding": {
-                "ProductId": {
-                  "style": "form"
-                },
-                "UserId": {
-                  "style": "form"
-                }
+                "$ref": "#/components/schemas/AddFavouriteDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddFavouriteDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddFavouriteDto"
               }
             }
           }
@@ -2461,6 +2454,20 @@
           "quantity": {
             "type": "integer",
             "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AddFavouriteDto": {
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "string",
             "nullable": true
           }
         },

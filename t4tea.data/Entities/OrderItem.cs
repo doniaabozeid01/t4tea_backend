@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace t4tea.data.Entities
@@ -10,6 +11,7 @@ namespace t4tea.data.Entities
     {
         public int Id { get; set; } // معرف العنصر
         public string OrderRequestId { get; set; } // معرف الطلب
+        [JsonIgnore]
         public OrderRequest OrderRequest { get; set; } // الطلب المرتبط
         public int ProductId { get; set; } // معرف المنتج
         public Products Product { get; set; } // المنتج المرتبط

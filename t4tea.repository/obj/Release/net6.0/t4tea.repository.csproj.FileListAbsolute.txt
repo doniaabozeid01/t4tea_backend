@@ -1,0 +1,16 @@
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\bin\Release\net6.0\t4tea.repository.deps.json
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\bin\Release\net6.0\t4tea.repository.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\bin\Release\net6.0\t4tea.repository.pdb
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\bin\Release\net6.0\t4tea.data.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\bin\Release\net6.0\t4tea.data.pdb
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.csproj.AssemblyReference.cache
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.AssemblyInfoInputs.cache
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.AssemblyInfo.cs
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.csproj.CoreCompileInputs.cache
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.sourcelink.json
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.re.343D2DB3.Up2Date
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\refint\t4tea.repository.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\t4tea.repository.pdb
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.repository\obj\Release\net6.0\ref\t4tea.repository.dll

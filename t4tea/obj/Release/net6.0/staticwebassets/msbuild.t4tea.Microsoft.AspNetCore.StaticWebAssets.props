@@ -1,0 +1,76 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0f0e4316-8c13-4208-89f4-56ab78522474_6Q1A1663 (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/0f0e4316-8c13-4208-89f4-56ab78522474_6Q1A1663 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>puz5smw8xo</Fingerprint>
+      <Integrity>wfigLsjq+ZYDXWRysyKq6WZs+iz437Q/Bu8zNCnId7U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0f0e4316-8c13-4208-89f4-56ab78522474_6Q1A1663 (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h7k61nm0d2</Fingerprint>
+      <Integrity>M5fsi7NqC7TOMtpv/qQhLFWicKzFx4mc57VppYMXl6U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h7k61nm0d2</Fingerprint>
+      <Integrity>M5fsi7NqC7TOMtpv/qQhLFWicKzFx4mc57VppYMXl6U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b075c692-1772-42ca-9890-643438bb6056_6Q1A1667.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/b075c692-1772-42ca-9890-643438bb6056_6Q1A1667.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h7k61nm0d2</Fingerprint>
+      <Integrity>M5fsi7NqC7TOMtpv/qQhLFWicKzFx4mc57VppYMXl6U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b075c692-1772-42ca-9890-643438bb6056_6Q1A1667.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

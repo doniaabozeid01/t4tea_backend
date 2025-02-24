@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\025753f2-f26f-4af3-9e0d-3b7aa2314e83_2 (3).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/025753f2-f26f-4af3-9e0d-3b7aa2314e83_2 (3).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1av5zdgfpj</Fingerprint>
+      <Integrity>mURr341h8y0uaEigRk32bKShclKI1Zgt4RXTXOjJiSo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\025753f2-f26f-4af3-9e0d-3b7aa2314e83_2 (3).png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0f0e4316-8c13-4208-89f4-56ab78522474_6Q1A1663 (1).png'))">
       <SourceType>Package</SourceType>
       <SourceId>t4tea</SourceId>
@@ -18,41 +36,257 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\0f0e4316-8c13-4208-89f4-56ab78522474_6Q1A1663 (1).png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\12f2f467-813b-43cb-bd63-e39d2b7d7b16_6Q1A1676.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>t4tea</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/t4tea</BasePath>
-      <RelativePath>images/6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png</RelativePath>
+      <RelativePath>images/12f2f467-813b-43cb-bd63-e39d2b7d7b16_6Q1A1676.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h7k61nm0d2</Fingerprint>
-      <Integrity>M5fsi7NqC7TOMtpv/qQhLFWicKzFx4mc57VppYMXl6U=</Integrity>
+      <Fingerprint>5az3syd9o5</Fingerprint>
+      <Integrity>o7blHZIQXLSxUCMUzO/OvbZYeecHdFLWLVpBUbZUA4s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\12f2f467-813b-43cb-bd63-e39d2b7d7b16_6Q1A1676.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\249ca118-5b46-4d80-b57a-036ae90b024e_3-.png'))">
       <SourceType>Package</SourceType>
       <SourceId>t4tea</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/t4tea</BasePath>
-      <RelativePath>images/96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png</RelativePath>
+      <RelativePath>images/249ca118-5b46-4d80-b57a-036ae90b024e_3-.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h7k61nm0d2</Fingerprint>
-      <Integrity>M5fsi7NqC7TOMtpv/qQhLFWicKzFx4mc57VppYMXl6U=</Integrity>
+      <Fingerprint>r77y0489ba</Fingerprint>
+      <Integrity>+VaRNZw7ce2FLAVIWyExghXcQLR4LzmNv3yI2wwE8+k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\249ca118-5b46-4d80-b57a-036ae90b024e_3-.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2a07d181-6f40-4417-b5bb-294876390f9f_33.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/2a07d181-6f40-4417-b5bb-294876390f9f_33.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p1vtnhyogx</Fingerprint>
+      <Integrity>bb2x0/WgTNh2iRueMJyE1923oBdlN5zfV9T+3CDNS6E=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2a07d181-6f40-4417-b5bb-294876390f9f_33.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2f10a0e6-00f6-4d09-9714-744babe90590_22.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/2f10a0e6-00f6-4d09-9714-744babe90590_22.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gyl8ugz3fe</Fingerprint>
+      <Integrity>2NCNZTtHir3pcBykmOOuy5bmUbR/TK/m4e61TSZr8oE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\2f10a0e6-00f6-4d09-9714-744babe90590_22.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4117845d-f306-4584-a6bc-bf0b2a27429a_1 (5).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/4117845d-f306-4584-a6bc-bf0b2a27429a_1 (5).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eoyvqre4mg</Fingerprint>
+      <Integrity>srgdHckCttjlsdnL+LkVhE6vcpZvbsvoEyV+yDwNuq8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\4117845d-f306-4584-a6bc-bf0b2a27429a_1 (5).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\546853e8-82c8-4cd0-8fcc-abe68b1c6e70_5 (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/546853e8-82c8-4cd0-8fcc-abe68b1c6e70_5 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dc0mc63uvo</Fingerprint>
+      <Integrity>w0AV0PZBfUCny6Yk6GHitHlYY7+Q7HfSrHyf6BMjBUk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\546853e8-82c8-4cd0-8fcc-abe68b1c6e70_5 (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\69dac34b-5506-4ced-9eb9-cae4a7e22254_1 (4).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/69dac34b-5506-4ced-9eb9-cae4a7e22254_1 (4).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eoyvqre4mg</Fingerprint>
+      <Integrity>srgdHckCttjlsdnL+LkVhE6vcpZvbsvoEyV+yDwNuq8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\69dac34b-5506-4ced-9eb9-cae4a7e22254_1 (4).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\83e2ec1d-ea40-492a-9ccc-94f1dfc09fe1_6 (2).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/83e2ec1d-ea40-492a-9ccc-94f1dfc09fe1_6 (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a0espj2gh9</Fingerprint>
+      <Integrity>FsVZrm8LG5GURWyhDRIXbmyulbuogYJO6NNwp1gXVUc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\83e2ec1d-ea40-492a-9ccc-94f1dfc09fe1_6 (2).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\85c4d810-724b-4082-8f4b-e5a128ce19e7_3 (3).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/85c4d810-724b-4082-8f4b-e5a128ce19e7_3 (3).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gcko8i2gdn</Fingerprint>
+      <Integrity>ANOWt6oiDubQKqOkKZB4tfJtVeldOX4WFNoXY6Ti8MI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\85c4d810-724b-4082-8f4b-e5a128ce19e7_3 (3).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8bb45c64-50c4-4b92-a0ca-f312d07bd0d4_2 (2).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/8bb45c64-50c4-4b92-a0ca-f312d07bd0d4_2 (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gvquaujqkq</Fingerprint>
+      <Integrity>jBUyIDcRk4Yg99cYE+UBs7MJOPjgC3dnt42LU/Byiuo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8bb45c64-50c4-4b92-a0ca-f312d07bd0d4_2 (2).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8c5c3ee6-f020-4b00-ba6a-981b1adcbeb2_5-.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/8c5c3ee6-f020-4b00-ba6a-981b1adcbeb2_5-.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rgjvffgged</Fingerprint>
+      <Integrity>S38dqdG0sSQVpMKPJ250fdlUUX1FoqTWpHTE8TdRwU0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8c5c3ee6-f020-4b00-ba6a-981b1adcbeb2_5-.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\909adc13-816f-4dd7-93ab-0a15f8cb53cc_3 (2).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/909adc13-816f-4dd7-93ab-0a15f8cb53cc_3 (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ezdiw9goho</Fingerprint>
+      <Integrity>SvuYaUq/LJtgZRwNu5Yxp5OGuIigvTzlpFPIAsJRDoM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\909adc13-816f-4dd7-93ab-0a15f8cb53cc_3 (2).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ab870bfb-ed40-4bec-8984-da355bcfda27_6-.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/ab870bfb-ed40-4bec-8984-da355bcfda27_6-.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0e9uhkpg14</Fingerprint>
+      <Integrity>+GPEPHs0sv+qLPuooRdk/+dpMUw8Sxj5bXLDyvTwmI8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ab870bfb-ed40-4bec-8984-da355bcfda27_6-.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\afacf2d9-421c-4f58-bdea-b277ffd1d88d_1 (5).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/afacf2d9-421c-4f58-bdea-b277ffd1d88d_1 (5).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eoyvqre4mg</Fingerprint>
+      <Integrity>srgdHckCttjlsdnL+LkVhE6vcpZvbsvoEyV+yDwNuq8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\afacf2d9-421c-4f58-bdea-b277ffd1d88d_1 (5).png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b075c692-1772-42ca-9890-643438bb6056_6Q1A1667.png'))">
       <SourceType>Package</SourceType>
@@ -71,6 +305,150 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b075c692-1772-42ca-9890-643438bb6056_6Q1A1667.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b0ecb59c-f98c-4c47-888d-44219638c66c_11.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/b0ecb59c-f98c-4c47-888d-44219638c66c_11.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5db9wxy9ol</Fingerprint>
+      <Integrity>N7o5AR1zHsf7IhkTud7eMuiYMsg3yODrmkSOXbatI+0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b0ecb59c-f98c-4c47-888d-44219638c66c_11.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bbba035f-3f59-4454-a7fd-5fae44798d4d_-1.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/bbba035f-3f59-4454-a7fd-5fae44798d4d_-1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>puz5smw8xo</Fingerprint>
+      <Integrity>wfigLsjq+ZYDXWRysyKq6WZs+iz437Q/Bu8zNCnId7U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bbba035f-3f59-4454-a7fd-5fae44798d4d_-1.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bc681fd9-da8e-4837-b1ad-20a67bf90bfe_4-.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/bc681fd9-da8e-4837-b1ad-20a67bf90bfe_4-.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1hy2shwo1e</Fingerprint>
+      <Integrity>BZtFPwySDNsi400VzBhbqOuv7IAoRg9TaQd10C+ZAoM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bc681fd9-da8e-4837-b1ad-20a67bf90bfe_4-.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cb1ba1c5-614f-4feb-9e6d-1206ad0b5cdf_-2.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/cb1ba1c5-614f-4feb-9e6d-1206ad0b5cdf_-2.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>z2x4vmj44b</Fingerprint>
+      <Integrity>hbhAo7dtK0vszQiT0TxNckC94G/7JzwKfyIGekQGMu8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cb1ba1c5-614f-4feb-9e6d-1206ad0b5cdf_-2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dbd3a146-d078-4483-bf41-0025d0a636ad_6 (2).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/dbd3a146-d078-4483-bf41-0025d0a636ad_6 (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a0espj2gh9</Fingerprint>
+      <Integrity>FsVZrm8LG5GURWyhDRIXbmyulbuogYJO6NNwp1gXVUc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dbd3a146-d078-4483-bf41-0025d0a636ad_6 (2).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\de320273-479b-4467-9757-b209d282de29_6Q1A1663 (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/de320273-479b-4467-9757-b209d282de29_6Q1A1663 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>puz5smw8xo</Fingerprint>
+      <Integrity>wfigLsjq+ZYDXWRysyKq6WZs+iz437Q/Bu8zNCnId7U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\de320273-479b-4467-9757-b209d282de29_6Q1A1663 (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e440cd81-f3b8-4ac1-84ae-68ea8ba46e89_Untitled-1 (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/e440cd81-f3b8-4ac1-84ae-68ea8ba46e89_Untitled-1 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xksgkfzpvh</Fingerprint>
+      <Integrity>sZQyU+ldSRIxOwMJeRVtpEOJFafqC6rHQFCCF/STyY0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e440cd81-f3b8-4ac1-84ae-68ea8ba46e89_Untitled-1 (1).png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e4dfd05d-dec7-4d9a-ad83-abd7dbd5de27_4 (1).png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>t4tea</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/t4tea</BasePath>
+      <RelativePath>images/e4dfd05d-dec7-4d9a-ad83-abd7dbd5de27_4 (1).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jyeuv4j8kr</Fingerprint>
+      <Integrity>O+bq8AvAQ9kUeA2nMyB58xFTpfbROiyeimpF9LQaRy0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e4dfd05d-dec7-4d9a-ad83-abd7dbd5de27_4 (1).png'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

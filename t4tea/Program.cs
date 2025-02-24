@@ -109,7 +109,24 @@ builder.Services.AddAutoMapper(typeof(ReviewProfile));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+        builder.AllowAnyOrigin() // ?????? ??? ????
+               .AllowAnyHeader() // ?????? ??? ??????
+               .AllowAnyMethod()); // ?????? ??? ????? HTTP
+});
+
+
+
+
 var app = builder.Build();
+
+
+app.UseCors("AllowAll");
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

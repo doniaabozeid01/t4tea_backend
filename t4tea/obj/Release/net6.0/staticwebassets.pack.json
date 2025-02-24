@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\wwwroot\\images\\0f0e4316-8c13-4208-89f4-56ab78522474_6Q1A1663 (1).png",
+      "PackagePath": "staticwebassets\\images\\0f0e4316-8c13-4208-89f4-56ab78522474_6Q1A1663 (1).png"
+    },
+    {
+      "Id": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\wwwroot\\images\\6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png",
+      "PackagePath": "staticwebassets\\images\\6e8c1497-7872-4c14-a554-141fb9de64f3_6Q1A1667.png"
+    },
+    {
+      "Id": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\wwwroot\\images\\96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png",
+      "PackagePath": "staticwebassets\\images\\96b09650-93a4-4039-8296-7db772e6b8f9_6Q1A1667.png"
+    },
+    {
+      "Id": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\wwwroot\\images\\b075c692-1772-42ca-9890-643438bb6056_6Q1A1667.png",
+      "PackagePath": "staticwebassets\\images\\b075c692-1772-42ca-9890-643438bb6056_6Q1A1667.png"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.t4tea.props",
+      "PackagePath": "build\\t4tea.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.t4tea.props",
+      "PackagePath": "buildMultiTargeting\\t4tea.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.t4tea.props",
+      "PackagePath": "buildTransitive\\t4tea.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.t4tea.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.t4tea.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

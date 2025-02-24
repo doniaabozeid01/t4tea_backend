@@ -3,8 +3,92 @@
   "WorkspaceRootPath": "E:\\T4 Tea\\t4tea-backend\\t4tea\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|solutionrelative:t4tea.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\enum\\flavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\enum\\flavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|solutionrelative:t4tea.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\imagesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\images\\imagesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\dtos\\getorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\dtos\\getorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\productfavouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\productfavouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\dtos\\addfavouritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\favourite\\dtos\\addfavouritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\cart\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\cart\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\product\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\product\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\review\\reviewsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +99,12 @@
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\review\\dtos\\getreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|solutionrelative:t4tea.repository\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|solutionrelative:t4tea.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\review\\ireviewsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\review\\ireviewsservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|solutionrelative:t4tea.repository\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\product\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,20 +135,12 @@
       "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213305_deleteOffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t4tea.data\\Migrations\\20250217213305_deleteOffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\context\\t4teadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\context\\t4teadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\migrations\\20250217213053_addcommentandrenameoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\migrations\\20250217213053_addcommentandrenameoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\review\\dtos\\addreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,10 +153,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\dtos\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\product\\dtos\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\product\\iproductservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\migrations\\20250217183850_addoffertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,22 +173,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\dtos\\addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\dtos\\addorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\cart\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\cart\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\cart\\dtos\\addcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -159,10 +199,6 @@
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\dtos\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -171,24 +207,12 @@
       "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\favouriteproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\entities\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\entities\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\dtos\\updateorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\dtos\\updateorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\dtos\\getorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\order\\dtos\\getorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\order\\dtos\\getorderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -207,10 +231,6 @@
       "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\productfavouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\productfavouritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\dtos\\favouritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\favourite\\dtos\\favouritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -225,10 +245,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\dtos\\favouriteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\favourite\\dtos\\favouriteprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\email\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -267,10 +283,6 @@
       "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\productbenifitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\productimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\controllers\\advertisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\controllers\\advertisecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -281,10 +293,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\category\\dtos\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\category\\dtos\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\dtos\\addfavouritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\favourite\\dtos\\addfavouritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216195619_addFavouritesTableAndItsRelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -303,20 +311,12 @@
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\t4tea.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea\\t4tea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5838A852-3D60-4757-A061-51F45D18F191}|t4tea\\t4tea.csproj|solutionrelative:t4tea\\t4tea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\iimagesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\images\\iimagesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\imagesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|solutionrelative:t4tea.service\\images\\imagesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09A9BE0B-67D0-4765-B890-28D95B51506C}|t4tea.service\\t4tea.service.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\dtos\\addimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -391,10 +391,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:t4tea.data\\Migrations\\20250215181807_addEnumToFlavorInProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\enum\\flavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\enum\\flavour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.repository\\t4tea.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1016D39A-419A-498F-945B-AC07E576B6E5}|t4tea.repository\\t4tea.repository.csproj|solutionrelative:t4tea.repository\\t4tea.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -433,6 +429,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\migrations\\20250216195707_addfavouritestableanditsrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\migrations\\20250216195707_addfavouritestableanditsrelationships.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|e:\\t4 tea\\t4tea-backend\\t4tea\\t4tea.data\\migrations\\20250217213305_deleteoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C11EF41B-4D99-4E21-8800-8CA085A8A83D}|t4tea.data\\t4tea.data.csproj|solutionrelative:t4tea.data\\migrations\\20250217213305_deleteoffer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -442,123 +442,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductServices.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\ProductServices.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\product\\ProductServices.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\ProductServices.cs",
-              "RelativeToolTip": "t4tea.service\\product\\ProductServices.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAgwL0AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:37:16.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T21:23:38.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "addProductDto.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\addProductDto.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\addProductDto.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\addProductDto.cs",
-              "RelativeToolTip": "t4tea.service\\product\\Dtos\\addProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "OrderRequest.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderRequest.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Entities\\OrderRequest.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderRequest.cs",
+              "RelativeToolTip": "t4tea.data\\Entities\\OrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:51:57.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReviewsServices.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\ReviewsServices.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Review\\ReviewsServices.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\ReviewsServices.cs",
-              "RelativeToolTip": "t4tea.service\\Review\\ReviewsServices.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwDMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:11:19.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T22:20:31.467Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IReviewsServices.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\IReviewsServices.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Review\\IReviewsServices.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\IReviewsServices.cs",
-              "RelativeToolTip": "t4tea.service\\Review\\IReviewsServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Program.cs",
+              "RelativeDocumentMoniker": "t4tea\\Program.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Program.cs",
+              "RelativeToolTip": "t4tea\\Program.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAmwIsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:11:13.693Z",
+              "WhenOpened": "2025-02-12T17:38:24.18Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\PaymentController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAmwPIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:59:33.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\appsettings.json",
+              "RelativeDocumentMoniker": "t4tea\\appsettings.json",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\appsettings.json",
+              "RelativeToolTip": "t4tea\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-12T17:33:04.139Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ReviewsController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ReviewsController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\ReviewsController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ReviewsController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\ReviewsController.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAiwKMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:23:53.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetReviewDto.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
-              "RelativeToolTip": "t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:12:22.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "t4tea.repository\\Repositories\\GenericRepository.cs",
               "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "t4tea.repository\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA3wCIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAswGoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T20:09:47.207Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "t4tea.repository\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "t4tea.repository\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAswFkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Flavour.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\Flavour.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Enum\\Flavour.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\Flavour.cs",
+              "RelativeToolTip": "t4tea.data\\Enum\\Flavour.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:29:55.722Z",
+              "WhenOpened": "2025-02-15T18:04:28.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\PaymentController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswCUAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductImagesController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductImagesController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductImagesController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductImagesController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\ProductImagesController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:59:33.688Z",
+              "WhenOpened": "2025-02-16T17:20:34.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImagesServices.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\ImagesServices.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\images\\ImagesServices.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\ImagesServices.cs",
+              "RelativeToolTip": "t4tea.service\\images\\ImagesServices.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:23:00.897Z",
               "EditorCaption": ""
             },
             {
@@ -569,444 +565,26 @@
               "RelativeDocumentMoniker": "t4tea.repository\\Repositories\\UnitOfWork.cs",
               "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Repositories\\UnitOfWork.cs",
               "RelativeToolTip": "t4tea.repository\\Repositories\\UnitOfWork.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBcAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T22:24:27.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Products.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Products.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Entities\\Products.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Products.cs",
-              "RelativeToolTip": "t4tea.data\\Entities\\Products.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "ProductFavouriteController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductFavouriteController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductFavouriteController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductFavouriteController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\ProductFavouriteController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAASwCoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:08:03.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250217220251_updateRateInProduct.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
-              "RelativeToolTip": "t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T22:02:51.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T20:12:25.143Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductsController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAPkAAAAAAAAAAAAQwBEBAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:34:47.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\CategoriesController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T23:32:08.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "productDto.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productDto.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\productDto.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productDto.cs",
-              "RelativeToolTip": "t4tea.service\\product\\Dtos\\productDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T17:51:19.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "T4teaDbContext.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Context\\T4teaDbContext.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Context\\T4teaDbContext.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Context\\T4teaDbContext.cs",
-              "RelativeToolTip": "t4tea.data\\Context\\T4teaDbContext.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAwCsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:26:22.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Reviews.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Reviews.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Entities\\Reviews.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Reviews.cs",
-              "RelativeToolTip": "t4tea.data\\Entities\\Reviews.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T20:59:45.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20250217213305_deleteOffer.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
-              "RelativeToolTip": "t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:33:05.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "productProfile.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productProfile.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\productProfile.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productProfile.cs",
-              "RelativeToolTip": "t4tea.service\\product\\Dtos\\productProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T17:47:32.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20250217213053_addCommentAndRenameOffer.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
-              "RelativeToolTip": "t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:30:53.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AddReviewDto.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
-              "RelativeToolTip": "t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:12:06.21Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Program.cs",
-              "RelativeDocumentMoniker": "t4tea\\Program.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Program.cs",
-              "RelativeToolTip": "t4tea\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:38:24.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ReviewProfile.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
-              "RelativeToolTip": "t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:12:33.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IProductServices.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\IProductServices.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\product\\IProductServices.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\IProductServices.cs",
-              "RelativeToolTip": "t4tea.service\\product\\IProductServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:36:55.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "20250217183850_addOfferType.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
-              "RelativeToolTip": "t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:38:50.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "OfferType.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\OfferType.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Enum\\OfferType.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\OfferType.cs",
-              "RelativeToolTip": "t4tea.data\\Enum\\OfferType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:35:28.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20250217181803_addOfferTableAndItsRelations.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
-              "RelativeToolTip": "t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwBEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T18:18:04.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CategoryServices.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\category\\CategoryServices.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\category\\CategoryServices.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\category\\CategoryServices.cs",
-              "RelativeToolTip": "t4tea.service\\category\\CategoryServices.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwEgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T23:01:54.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "addOrder.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\addOrder.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\addOrder.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\addOrder.cs",
-              "RelativeToolTip": "t4tea.service\\Order\\Dtos\\addOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:42:06.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\OrderService.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Order\\OrderService.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\OrderService.cs",
-              "RelativeToolTip": "t4tea.service\\Order\\OrderService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAiwD4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:49:51.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "OrderRequest.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderRequest.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Entities\\OrderRequest.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderRequest.cs",
-              "RelativeToolTip": "t4tea.data\\Entities\\OrderRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:20:31.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\CartService.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Cart\\CartService.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\CartService.cs",
-              "RelativeToolTip": "t4tea.service\\Cart\\CartService.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAFkAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:29:11.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "GetCart.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\GetCart.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Cart\\Dtos\\GetCart.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\GetCart.cs",
-              "RelativeToolTip": "t4tea.service\\Cart\\Dtos\\GetCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:25:50.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CartProfile.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\CartProfile.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Cart\\Dtos\\CartProfile.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\CartProfile.cs",
-              "RelativeToolTip": "t4tea.service\\Cart\\Dtos\\CartProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:26:13.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AddCart.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\AddCart.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Cart\\Dtos\\AddCart.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\AddCart.cs",
-              "RelativeToolTip": "t4tea.service\\Cart\\Dtos\\AddCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:25:28.105Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 106,
-              "Title": "20250216230941_addPaymentAndOrderAndCartTables.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
-              "RelativeToolTip": "t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T23:09:41.517Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\CartController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CartController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAkBAAAAAAAAAAAUwBcBAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:35:13.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Entities\\ApplicationUser.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\ApplicationUser.cs",
-              "RelativeToolTip": "t4tea.data\\Entities\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T18:59:05.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20250216230819_addPaymentAndOrderAndCartTables.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
-              "RelativeToolTip": "t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T23:08:19.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "FavouriteProducts.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\FavouriteProducts.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Entities\\FavouriteProducts.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\FavouriteProducts.cs",
-              "RelativeToolTip": "t4tea.data\\Entities\\FavouriteProducts.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:32:33.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Categories.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Categories.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Entities\\Categories.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Categories.cs",
-              "RelativeToolTip": "t4tea.data\\Entities\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:43:56.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Authentication\\JwtTokenService.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\JwtTokenService.cs",
-              "RelativeToolTip": "t4tea.service\\Authentication\\JwtTokenService.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAUwDIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:25:00.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "OrderProfile.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\OrderProfile.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\OrderProfile.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\OrderProfile.cs",
-              "RelativeToolTip": "t4tea.service\\Order\\Dtos\\OrderProfile.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:48:40.281Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Entities\\OrderItem.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderItem.cs",
-              "RelativeToolTip": "t4tea.data\\Entities\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:22:24.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
               "Title": "CartItems.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\CartItems.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Entities\\CartItems.cs",
@@ -1018,7 +596,499 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Categories.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Entities\\Categories.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Categories.cs",
+              "RelativeToolTip": "t4tea.data\\Entities\\Categories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T17:43:56.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\OrderService.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Order\\OrderService.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\OrderService.cs",
+              "RelativeToolTip": "t4tea.service\\Order\\OrderService.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwI4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:49:51.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Entities\\OrderItem.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "t4tea.data\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:22:24.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddFavouriteDto.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
+              "RelativeToolTip": "t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:39:10.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetOrderRequest.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
+              "RelativeToolTip": "t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:47:02.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\ReviewsController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\ReviewsController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAqwOsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:23:53.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\CartController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CartController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\CartController.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAuwBcBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:35:13.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\CartService.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Cart\\CartService.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\CartService.cs",
+              "RelativeToolTip": "t4tea.service\\Cart\\CartService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwFkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:29:11.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\ProductServices.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\product\\ProductServices.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\ProductServices.cs",
+              "RelativeToolTip": "t4tea.service\\product\\ProductServices.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowL0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:37:16.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IProductServices.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\IProductServices.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\product\\IProductServices.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\IProductServices.cs",
+              "RelativeToolTip": "t4tea.service\\product\\IProductServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:36:55.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReviewsServices.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\ReviewsServices.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Review\\ReviewsServices.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\ReviewsServices.cs",
+              "RelativeToolTip": "t4tea.service\\Review\\ReviewsServices.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:11:19.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "t4tea.repository\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "t4tea.repository\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswFkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:29:55.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetReviewDto.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
+              "RelativeToolTip": "t4tea.service\\Review\\Dtos\\GetReviewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:12:22.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IReviewsServices.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\IReviewsServices.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Review\\IReviewsServices.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\IReviewsServices.cs",
+              "RelativeToolTip": "t4tea.service\\Review\\IReviewsServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:11:13.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "addProductDto.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\addProductDto.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\addProductDto.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\addProductDto.cs",
+              "RelativeToolTip": "t4tea.service\\product\\Dtos\\addProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:51:57.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Products.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Products.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Entities\\Products.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Products.cs",
+              "RelativeToolTip": "t4tea.data\\Entities\\Products.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:08:03.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250217220251_updateRateInProduct.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
+              "RelativeToolTip": "t4tea.data\\Migrations\\20250217220251_updateRateInProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T22:02:51.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductsController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAQwBEBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T22:34:47.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "t4tea\\Controllers\\CategoriesController.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "t4tea\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T23:32:08.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "productDto.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productDto.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\productDto.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productDto.cs",
+              "RelativeToolTip": "t4tea.service\\product\\Dtos\\productDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T17:51:19.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "T4teaDbContext.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Context\\T4teaDbContext.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Context\\T4teaDbContext.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Context\\T4teaDbContext.cs",
+              "RelativeToolTip": "t4tea.data\\Context\\T4teaDbContext.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T17:26:22.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Reviews.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Reviews.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Entities\\Reviews.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Reviews.cs",
+              "RelativeToolTip": "t4tea.data\\Entities\\Reviews.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T20:59:45.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "20250217213305_deleteOffer.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
+              "RelativeToolTip": "t4tea.data\\Migrations\\20250217213305_deleteOffer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:33:05.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "productProfile.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productProfile.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\productProfile.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productProfile.cs",
+              "RelativeToolTip": "t4tea.service\\product\\Dtos\\productProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T17:47:32.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250217213053_addCommentAndRenameOffer.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
+              "RelativeToolTip": "t4tea.data\\Migrations\\20250217213053_addCommentAndRenameOffer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:30:53.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddReviewDto.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
+              "RelativeToolTip": "t4tea.service\\Review\\Dtos\\AddReviewDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:12:06.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ReviewProfile.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
+              "RelativeToolTip": "t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T21:12:33.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250217183850_addOfferType.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
+              "RelativeToolTip": "t4tea.data\\Migrations\\20250217183850_addOfferType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:38:50.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OfferType.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\OfferType.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Enum\\OfferType.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\OfferType.cs",
+              "RelativeToolTip": "t4tea.data\\Enum\\OfferType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:35:28.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250217181803_addOfferTableAndItsRelations.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
+              "RelativeToolTip": "t4tea.data\\Migrations\\20250217181803_addOfferTableAndItsRelations.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T18:18:04.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CategoryServices.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\category\\CategoryServices.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\category\\CategoryServices.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\category\\CategoryServices.cs",
+              "RelativeToolTip": "t4tea.service\\category\\CategoryServices.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwEgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T23:01:54.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "addOrder.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\addOrder.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\addOrder.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\addOrder.cs",
+              "RelativeToolTip": "t4tea.service\\Order\\Dtos\\addOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:42:06.472Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 44,
+              "Title": "GetCart.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\GetCart.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Cart\\Dtos\\GetCart.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\GetCart.cs",
+              "RelativeToolTip": "t4tea.service\\Cart\\Dtos\\GetCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:25:50.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CartProfile.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\CartProfile.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Cart\\Dtos\\CartProfile.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\CartProfile.cs",
+              "RelativeToolTip": "t4tea.service\\Cart\\Dtos\\CartProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:26:13.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AddCart.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\AddCart.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Cart\\Dtos\\AddCart.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\Dtos\\AddCart.cs",
+              "RelativeToolTip": "t4tea.service\\Cart\\Dtos\\AddCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:25:28.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "20250216230941_addPaymentAndOrderAndCartTables.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
+              "RelativeToolTip": "t4tea.data\\Migrations\\20250216230941_addPaymentAndOrderAndCartTables.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:09:41.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Entities\\ApplicationUser.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "t4tea.data\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:59:05.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250216230819_addPaymentAndOrderAndCartTables.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
+              "RelativeToolTip": "t4tea.data\\Migrations\\20250216230819_addPaymentAndOrderAndCartTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:08:19.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "FavouriteProducts.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\FavouriteProducts.cs",
+              "RelativeDocumentMoniker": "t4tea.data\\Entities\\FavouriteProducts.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\FavouriteProducts.cs",
+              "RelativeToolTip": "t4tea.data\\Entities\\FavouriteProducts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:32:33.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Authentication\\JwtTokenService.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\JwtTokenService.cs",
+              "RelativeToolTip": "t4tea.service\\Authentication\\JwtTokenService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:25:00.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "OrderProfile.cs",
+              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\OrderProfile.cs",
+              "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\OrderProfile.cs",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\OrderProfile.cs",
+              "RelativeToolTip": "t4tea.service\\Order\\Dtos\\OrderProfile.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:48:40.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\IOrderService.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Order\\IOrderService.cs",
@@ -1030,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "UpdateOrderStatusRequest.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\UpdateOrderStatusRequest.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\UpdateOrderStatusRequest.cs",
@@ -1042,19 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "GetOrderRequest.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
-              "RelativeToolTip": "t4tea.service\\Order\\Dtos\\GetOrderRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:47:02.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "GetOrderItems.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\GetOrderItems.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\GetOrderItems.cs",
@@ -1066,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "CreateOrderRequest.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Order\\Dtos\\CreateOrderRequest.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Order\\Dtos\\CreateOrderRequest.cs",
@@ -1078,7 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "ICartService.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Cart\\ICartService.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Cart\\ICartService.cs",
@@ -1090,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "OrderStatus.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\OrderStatus.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Enum\\OrderStatus.cs",
@@ -1102,19 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "ProductFavouriteController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductFavouriteController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductFavouriteController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductFavouriteController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\ProductFavouriteController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAqwFIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:12:25.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "FavouriteProfile.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\Dtos\\FavouriteProfile.cs",
               "RelativeDocumentMoniker": "t4tea.service\\favourite\\Dtos\\FavouriteProfile.cs",
@@ -1126,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "FavouriteServices.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\FavouriteServices.cs",
               "RelativeDocumentMoniker": "t4tea.service\\favourite\\FavouriteServices.cs",
@@ -1138,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "FavouriteDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\Dtos\\FavouriteDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\favourite\\Dtos\\FavouriteDto.cs",
@@ -1150,7 +1196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "IFavouriteServices.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\IFavouriteServices.cs",
               "RelativeDocumentMoniker": "t4tea.service\\favourite\\IFavouriteServices.cs",
@@ -1162,19 +1208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\AccountController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswCIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T21:23:38.585Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "IJwtTokenService.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\IJwtTokenService.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Authentication\\IJwtTokenService.cs",
@@ -1186,7 +1220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 67,
               "Title": "loginDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\Dtos\\loginDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Authentication\\Dtos\\loginDto.cs",
@@ -1198,7 +1232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "registerDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\Dtos\\registerDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Authentication\\Dtos\\registerDto.cs",
@@ -1210,7 +1244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "ChangePasswordDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Authentication\\Dtos\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Authentication\\Dtos\\ChangePasswordDto.cs",
@@ -1222,7 +1256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "ForgotPasswordDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Email\\Dtos\\ForgotPasswordDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Email\\Dtos\\ForgotPasswordDto.cs",
@@ -1234,7 +1268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "ResetPasswordDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Email\\Dtos\\ResetPasswordDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Email\\Dtos\\ResetPasswordDto.cs",
@@ -1246,7 +1280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "IEmailSender.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Email\\IEmailSender.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Email\\IEmailSender.cs",
@@ -1258,7 +1292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\Email\\EmailSender.cs",
               "RelativeDocumentMoniker": "t4tea.service\\Email\\EmailSender.cs",
@@ -1270,19 +1304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "ProductImagesController.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductImagesController.cs",
-              "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductImagesController.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductImagesController.cs",
-              "RelativeToolTip": "t4tea\\Controllers\\ProductImagesController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwGEAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T17:20:34.339Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "ProductBenifitsController.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductBenifitsController.cs",
               "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductBenifitsController.cs",
@@ -1294,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 70,
               "Title": "AdvertiseController.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\AdvertiseController.cs",
               "RelativeDocumentMoniker": "t4tea\\Controllers\\AdvertiseController.cs",
@@ -1306,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "BenifitServices.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\benifit\\BenifitServices.cs",
               "RelativeDocumentMoniker": "t4tea.service\\benifit\\BenifitServices.cs",
@@ -1318,19 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "AddFavouriteDto.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
-              "RelativeToolTip": "t4tea.service\\favourite\\Dtos\\AddFavouriteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T19:39:10.102Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 106,
               "Title": "20250216195707_addFavouritesTableAndItsRelationships.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216195707_addFavouritesTableAndItsRelationships.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250216195707_addFavouritesTableAndItsRelationships.cs",
@@ -1342,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 74,
               "Title": "Images.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Images.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Entities\\Images.cs",
@@ -1354,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 72,
               "Title": "CategoryProfile.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\category\\Dtos\\CategoryProfile.cs",
               "RelativeDocumentMoniker": "t4tea.service\\category\\Dtos\\CategoryProfile.cs",
@@ -1366,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 75,
               "Title": "Advertise.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Entities\\Advertise.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Entities\\Advertise.cs",
@@ -1378,7 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 73,
               "Title": "20250216195619_addFavouritesTableAndItsRelationships.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250216195619_addFavouritesTableAndItsRelationships.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250216195619_addFavouritesTableAndItsRelationships.cs",
@@ -1390,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 76,
               "Title": "t4tea.service.csproj",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\t4tea.service.csproj",
               "RelativeDocumentMoniker": "t4tea.service\\t4tea.service.csproj",
@@ -1398,12 +1408,11 @@
               "RelativeToolTip": "t4tea.service\\t4tea.service.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-16T19:37:25.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T19:37:25.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "t4tea.csproj",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\t4tea.csproj",
               "RelativeDocumentMoniker": "t4tea\\t4tea.csproj",
@@ -1411,20 +1420,7 @@
               "RelativeToolTip": "t4tea\\t4tea.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-12T17:46:13.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\appsettings.json",
-              "RelativeDocumentMoniker": "t4tea\\appsettings.json",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\appsettings.json",
-              "RelativeToolTip": "t4tea\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-12T17:33:04.139Z"
+              "WhenOpened": "2025-02-12T17:46:13.424Z"
             },
             {
               "$type": "Document",
@@ -1477,18 +1473,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 78,
-              "Title": "ImagesServices.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\ImagesServices.cs",
-              "RelativeDocumentMoniker": "t4tea.service\\images\\ImagesServices.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\ImagesServices.cs",
-              "RelativeToolTip": "t4tea.service\\images\\ImagesServices.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T17:23:00.897Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
               "Title": "IImagesServices.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\images\\IImagesServices.cs",
               "RelativeDocumentMoniker": "t4tea.service\\images\\IImagesServices.cs",
@@ -1656,7 +1640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 103,
               "Title": "20250215200303_updateNameByDescriptionInBenifits.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250215200303_updateNameByDescriptionInBenifits.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250215200303_updateNameByDescriptionInBenifits.cs",
@@ -1679,19 +1663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
-              "Title": "Flavour.cs",
-              "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\Flavour.cs",
-              "RelativeDocumentMoniker": "t4tea.data\\Enum\\Flavour.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Enum\\Flavour.cs",
-              "RelativeToolTip": "t4tea.data\\Enum\\Flavour.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T18:04:28.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 104,
               "Title": "20250215170726_addImageToCategory.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250215170726_addImageToCategory.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250215170726_addImageToCategory.cs",
@@ -1703,7 +1675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 97,
               "Title": "t4tea.repository.csproj",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\t4tea.repository.csproj",
               "RelativeDocumentMoniker": "t4tea.repository\\t4tea.repository.csproj",
@@ -1711,12 +1683,11 @@
               "RelativeToolTip": "t4tea.repository\\t4tea.repository.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-13T23:23:05.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T23:23:05.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 102,
               "Title": "20250213222044_basicTables.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250213222044_basicTables.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250213222044_basicTables.cs",
@@ -1728,7 +1699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 98,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\Interfaces\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "t4tea.repository\\Interfaces\\IUnitOfWork.cs",
@@ -1740,7 +1711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 99,
               "Title": "20250213221937_basicTables.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250213221937_basicTables.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250213221937_basicTables.cs",
@@ -1751,7 +1722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 100,
               "Title": "20250213221702_basicTables.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250213221702_basicTables.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250213221702_basicTables.cs",
@@ -1762,7 +1733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 101,
               "Title": "20250213220910_basicTables.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\Migrations\\20250213220910_basicTables.cs",
               "RelativeDocumentMoniker": "t4tea.data\\Migrations\\20250213220910_basicTables.cs",

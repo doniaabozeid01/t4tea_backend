@@ -15,3 +15,4 @@ E:\T4 Tea\t4tea-backend\t4tea\t4tea.service\obj\Debug\net6.0\t4tea.service.dll
 E:\T4 Tea\t4tea-backend\t4tea\t4tea.service\obj\Debug\net6.0\refint\t4tea.service.dll
 E:\T4 Tea\t4tea-backend\t4tea\t4tea.service\obj\Debug\net6.0\t4tea.service.pdb
 E:\T4 Tea\t4tea-backend\t4tea\t4tea.service\obj\Debug\net6.0\ref\t4tea.service.dll
+E:\T4 Tea\t4tea-backend\t4tea\t4tea.service\obj\Debug\net6.0\t4tea.service.sourcelink.json
