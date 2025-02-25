@@ -26,6 +26,8 @@ using t4tea.service.Order;
 using t4tea.service.Cart.Dtos;
 using t4tea.service.Review;
 using t4tea.service.Review.Dtos;
+using t4tea.service.shipAndDis.Dtos;
+using t4tea.service.shipAndDis;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -91,6 +93,7 @@ builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IReviewsServices, ReviewsServices>();
+builder.Services.AddScoped<IShippingAndDiscountServices, ShippingAndDiscountServices>();
 
 
 builder.Services.AddAutoMapper(typeof(CategoryProfile));
@@ -101,6 +104,7 @@ builder.Services.AddAutoMapper(typeof(ImageProfile));
 builder.Services.AddAutoMapper(typeof(FavouriteProfile));
 builder.Services.AddAutoMapper(typeof(CartProfile));
 builder.Services.AddAutoMapper(typeof(ReviewProfile));
+builder.Services.AddAutoMapper(typeof(ShippingProfile));
 
 
 

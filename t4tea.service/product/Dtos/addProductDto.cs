@@ -12,6 +12,8 @@ namespace t4tea.service.product.Dtos
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        public float Weight { get; set; } = 100;
+
         public float? Rate { get; set; }
         public decimal OldPrice { get; set; }
         public decimal Discount { get; set; }

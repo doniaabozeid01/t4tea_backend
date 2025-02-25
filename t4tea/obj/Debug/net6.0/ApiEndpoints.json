@@ -1351,6 +1351,125 @@
     ]
   },
   {
+    "ContainingType": "t4tea.Controllers.ShippingAndDiscountController",
+    "Method": "AddShippingAndDiscount",
+    "RelativePath": "api/ShippingAndDiscount/AddShippingAndDiscount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shippingDto",
+        "Type": "t4tea.service.shipAndDis.Dtos.AddShippingAndDiscountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "t4tea.service.shipAndDis.Dtos.GetShippingAndDiscountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "t4tea.Controllers.ShippingAndDiscountController",
+    "Method": "DeleteShippingAndDiscount",
+    "RelativePath": "api/ShippingAndDiscount/DeleteShippingAndDiscount/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "t4tea.Controllers.ShippingAndDiscountController",
+    "Method": "GetAllShippingAndDiscount",
+    "RelativePath": "api/ShippingAndDiscount/GetAllShippingAndDiscount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[t4tea.service.shipAndDis.Dtos.GetShippingAndDiscountDto, t4tea.service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "t4tea.Controllers.ShippingAndDiscountController",
+    "Method": "GetShippingAndDiscountById",
+    "RelativePath": "api/ShippingAndDiscount/GetShippingAndDiscountById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "t4tea.service.shipAndDis.Dtos.GetShippingAndDiscountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "t4tea.Controllers.ShippingAndDiscountController",
+    "Method": "UpdateShippingAndDiscount",
+    "RelativePath": "api/ShippingAndDiscount/UpdateShippingAndDiscount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "shippingDto",
+        "Type": "t4tea.service.shipAndDis.Dtos.AddShippingAndDiscountDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "t4tea.service.shipAndDis.Dtos.GetShippingAndDiscountDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "t4tea.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

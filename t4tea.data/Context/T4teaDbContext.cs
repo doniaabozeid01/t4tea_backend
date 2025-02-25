@@ -43,6 +43,7 @@ namespace t4tea.data.Context
         public DbSet<OrderItem> orderItems { get; set; }
         //public DbSet<Offer> Offers { get; set; }
         public DbSet<Reviews> Review { get; set; }
+        public DbSet<ShippingAndDiscount> ShippingAndDiscount { get; set; }
 
 
     }

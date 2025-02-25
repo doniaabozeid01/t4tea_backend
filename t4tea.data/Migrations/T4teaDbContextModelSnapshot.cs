@@ -481,6 +481,9 @@ namespace t4tea.data.Migrations
                     b.Property<float?>("Rate")
                         .HasColumnType("real");
 
+                    b.Property<float>("Weight")
+                        .HasColumnType("real");
+
                     b.Property<int>("categoryId")
                         .HasColumnType("int");
 
@@ -525,6 +528,25 @@ namespace t4tea.data.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Review");
+                });
+
+            modelBuilder.Entity("t4tea.data.Entities.ShippingAndDiscount", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<decimal>("OverAllDiscount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("ShippingPrice")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ShippingAndDiscount");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

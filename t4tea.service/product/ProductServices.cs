@@ -48,8 +48,10 @@ namespace t4tea.service.product
                 Rate = productDto.Rate,
                 OldPrice = productDto.OldPrice,
                 Discount = productDto.Discount,
-                //NewPrice = productDto.NewPrice,
-                Flavour = productDto.Flavour,
+                Weight = productDto.Weight,
+
+        //NewPrice = productDto.NewPrice,
+        Flavour = productDto.Flavour,
                 categoryId = productDto.categoryId
             };
         }
@@ -69,6 +71,8 @@ namespace t4tea.service.product
             product.Rate = prodDto.Rate;
             product.OldPrice = prodDto.OldPrice;
             product.Discount = prodDto.Discount;
+            product.Weight = prodDto.Weight;
+
             //product.NewPrice = prodDto.NewPrice;
             product.Flavour = prodDto.Flavour;
             product.categoryId = prodDto.categoryId;
@@ -89,6 +93,7 @@ namespace t4tea.service.product
                 Rate = prodDto.Rate,
                 OldPrice = prodDto.OldPrice,
                 Discount = prodDto.Discount,
+                Weight = prodDto.Weight,
                 //NewPrice = prodDto.NewPrice,
                 Flavour = prodDto.Flavour,
                 categoryId = prodDto.categoryId
@@ -193,6 +198,7 @@ namespace t4tea.service.product
                 OldPrice = product.OldPrice,
                 Discount = discount,
                 Flavour = product.Flavour,
+                Weight = product.Weight,
                 categoryId = product.categoryId
             };
         }
