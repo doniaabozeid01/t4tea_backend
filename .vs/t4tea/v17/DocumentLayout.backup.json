@@ -490,8 +490,7 @@
               "RelativeToolTip": "t4tea.data\\Migrations\\20250225225334_addWeightToProductTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T22:53:35.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T22:53:35.019Z"
             },
             {
               "$type": "Document",
@@ -503,8 +502,7 @@
               "RelativeToolTip": "t4tea\\Controllers\\AdvertiseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T22:03:50.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T22:03:50.538Z"
             },
             {
               "$type": "Document",
@@ -516,8 +514,7 @@
               "RelativeToolTip": "t4tea\\Controllers\\ReviewsController.cs",
               "ViewState": "AgIAAPoAAAAAAAAAAAAAABUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:23:53.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T21:23:53.037Z"
             },
             {
               "$type": "Document",
@@ -529,8 +526,7 @@
               "RelativeToolTip": "t4tea\\Program.cs",
               "ViewState": "AgIAAFEAAAAAAAAAAAAmwF8AAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:38:24.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T17:38:24.18Z"
             },
             {
               "$type": "Document",
@@ -542,8 +538,7 @@
               "RelativeToolTip": "t4tea.data\\Entities\\Products.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T19:08:03.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T19:08:03.983Z"
             },
             {
               "$type": "Document",
@@ -551,12 +546,11 @@
               "Title": "addProductDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\addProductDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\addProductDto.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\addProductDto.cs*",
-              "RelativeToolTip": "t4tea.service\\product\\Dtos\\addProductDto.cs*",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\addProductDto.cs",
+              "RelativeToolTip": "t4tea.service\\product\\Dtos\\addProductDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:51:57.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T22:51:57.705Z"
             },
             {
               "$type": "Document",
@@ -564,12 +558,11 @@
               "Title": "productDto.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productDto.cs",
               "RelativeDocumentMoniker": "t4tea.service\\product\\Dtos\\productDto.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productDto.cs*",
-              "RelativeToolTip": "t4tea.service\\product\\Dtos\\productDto.cs*",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\Dtos\\productDto.cs",
+              "RelativeToolTip": "t4tea.service\\product\\Dtos\\productDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-15T17:51:19.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T17:51:19.645Z"
             },
             {
               "$type": "Document",
@@ -577,12 +570,11 @@
               "Title": "ProductServices.cs",
               "DocumentMoniker": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\ProductServices.cs",
               "RelativeDocumentMoniker": "t4tea.service\\product\\ProductServices.cs",
-              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\ProductServices.cs*",
-              "RelativeToolTip": "t4tea.service\\product\\ProductServices.cs*",
+              "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.service\\product\\ProductServices.cs",
+              "RelativeToolTip": "t4tea.service\\product\\ProductServices.cs",
               "ViewState": "AgIAANkAAAAAAAAAAAAYwMgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T22:37:16.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T22:37:16.964Z"
             },
             {
               "$type": "Document",
@@ -592,7 +584,7 @@
               "RelativeDocumentMoniker": "t4tea\\Controllers\\ProductsController.cs",
               "ToolTip": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "t4tea\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAKsBAAAAAAAAAAAYwBEBAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAF4BAAAAAAAAAAAuwMcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T22:34:47.752Z",
               "EditorCaption": ""
@@ -607,8 +599,7 @@
               "RelativeToolTip": "t4tea.service\\shipAndDis\\ShippingAndDiscountServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T21:35:39.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T21:35:39.229Z"
             },
             {
               "$type": "Document",
@@ -620,8 +611,7 @@
               "RelativeToolTip": "t4tea.service\\shipAndDis\\IShippingAndDiscountServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T21:35:28.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T21:35:28.011Z"
             },
             {
               "$type": "Document",
@@ -633,8 +623,7 @@
               "RelativeToolTip": "t4tea\\Controllers\\ShippingAndDiscountController.cs",
               "ViewState": "AgIAANIAAAAAAAAAAAAYwOYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T22:23:42.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T22:23:42.437Z"
             },
             {
               "$type": "Document",
@@ -646,8 +635,7 @@
               "RelativeToolTip": "t4tea.service\\Review\\IReviewsServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:11:13.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T21:11:13.693Z"
             },
             {
               "$type": "Document",
@@ -659,8 +647,7 @@
               "RelativeToolTip": "t4tea.service\\shipAndDis\\Dtos\\AddShippingAndDiscountDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T21:34:48.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T21:34:48.359Z"
             },
             {
               "$type": "Document",
@@ -672,8 +659,7 @@
               "RelativeToolTip": "t4tea.service\\shipAndDis\\Dtos\\ShippingProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T21:35:09.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T21:35:09.515Z"
             },
             {
               "$type": "Document",
@@ -685,8 +671,7 @@
               "RelativeToolTip": "t4tea.service\\shipAndDis\\Dtos\\GetShippingAndDiscountDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T21:34:58.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T21:34:58.718Z"
             },
             {
               "$type": "Document",
@@ -698,8 +683,7 @@
               "RelativeToolTip": "t4tea.service\\Review\\ReviewsServices.cs",
               "ViewState": "AgIAAF4AAAAAAAAAAAAYwIIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:11:19.854Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T21:11:19.854Z"
             },
             {
               "$type": "Document",
@@ -711,8 +695,7 @@
               "RelativeToolTip": "t4tea.service\\Review\\Dtos\\ReviewProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T21:12:33.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T21:12:33.581Z"
             },
             {
               "$type": "Document",
@@ -724,8 +707,7 @@
               "RelativeToolTip": "t4tea.data\\Entities\\ShippingAndDiscount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T20:46:19.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T20:46:19.586Z"
             },
             {
               "$type": "Document",
@@ -737,8 +719,7 @@
               "RelativeToolTip": "t4tea.data\\Migrations\\20250225211201_addShippingAndDiscountTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T21:12:01.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T21:12:01.606Z"
             },
             {
               "$type": "Document",
@@ -786,8 +767,7 @@
               "RelativeToolTip": "t4tea.repository\\Repositories\\GenericRepository.cs",
               "ViewState": "AgIAAFwAAAAAAAAAAAAswGoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:09:47.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T20:09:47.207Z"
             },
             {
               "$type": "Document",
@@ -811,8 +791,7 @@
               "RelativeToolTip": "t4tea.data\\Context\\T4teaDbContext.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwC0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T17:26:22.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-12T17:26:22.445Z"
             },
             {
               "$type": "Document",
