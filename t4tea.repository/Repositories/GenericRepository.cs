@@ -48,13 +48,13 @@ namespace t4tea.repository.Repositories
 
         public async Task<IReadOnlyList<Products>> GetAllProductsAsync()
         {
-            return await _context.Set<Products>().Include(y => y.category).Include(y => y.images).Include(z => z.benifits).Include(x => x.reviews).ToListAsync();
+            return await _context.Set<Products>().Include(y => y.flavour).Include(y => y.category).Include(y => y.images).Include(z => z.benifits).Include(x => x.reviews).ToListAsync();
         }
 
         
         public async Task<Products> GetProductByIdAsync(int id)
         {
-            return await _context.Set<Products>().Include(y => y.category).Include(y => y.images).Include(z => z.benifits).Include(x => x.reviews).FirstOrDefaultAsync(x=>x.Id == id);
+            return await _context.Set<Products>().Include(y => y.flavour).Include(y => y.category).Include(y => y.images).Include(z => z.benifits).Include(x => x.reviews).FirstOrDefaultAsync(x=>x.Id == id);
         }
 
 

@@ -15,7 +15,15 @@ namespace t4tea.service.product.Dtos
         public productProfile()
         {
             CreateMap<Products, addProductDto>().ReverseMap();
-            CreateMap<Products, ProductDto>().ReverseMap();
+
+            CreateMap<Products, ProductDto>()
+                .ForMember(dest => dest.flavourId, opt => opt.MapFrom(src => src.flavourId))
+                .ForMember(dest => dest.categoryId, opt => opt.MapFrom(src => src.categoryId))
+                .ReverseMap();
+
+            CreateMap<Flavours, FlavourDto>().ReverseMap();
+            CreateMap<Categories, CategoryDto>().ReverseMap();
+
         }
     }
 }
