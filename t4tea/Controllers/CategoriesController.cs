@@ -17,130 +17,18 @@ namespace t4tea.Controllers
             _categoryServices = categoryServices;
         }
 
-
-        //[HttpPost("AddCategory")]
-        //public async Task<ActionResult<categoryDto>> AddCategory(AddCategoryDto categoryDto)
-        //{
-        //    try
-        //    {
-        //        if (categoryDto == null)
-        //        {
-        //            // إرسال استجابة فارغة مع حالة 404 (Not Found)
-        //            return BadRequest("tea product shouldn't be empty .");
-        //        }
-        //        var tea = await _categoryServices.AddCategory(categoryDto);
-
-        //        if (tea == null && categoryDto == null)
-        //        {
-        //            return BadRequest("category shouldn't be empty .");
-        //        }
-        //        else if (tea == null && categoryDto != null)
-        //        {
-        //            return BadRequest("Failed to save Tea to the database.");
-
-        //        }
-        //        // إرسال الاستجابة الناجحة مع البيانات
-        //        return Ok(tea);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // في حالة حدوث استثناء أثناء تنفيذ الكود
-        //        // يمكنك تسجيل الخطأ أو إضافة تفاصيل إضافية هنا
-        //        return StatusCode(500, $"Internal server error: {ex.Message}");
-        //    }
-        //}
-
-
-
-
-
         [HttpPost("AddCategory")]
         public async Task<ActionResult<categoryDto>> AddCategory([FromForm] AddCategoryDto categoryDto)
         {
-            try
-            {
-                if (categoryDto == null)
-                {
-                    return BadRequest("Category shouldn't be empty.");
-                }
+            if (categoryDto == null)
+                return BadRequest("Category shouldn't be empty.");
 
-                string imagePath = null;
+            var category = await _categoryServices.AddCategory(categoryDto, categoryDto.Image);
 
-                if (categoryDto.Image != null)
-                {
-                    // حفظ الصورة واسترجاع المسار
-                    imagePath = await _categoryServices.SaveImage(categoryDto.Image);
-                }
-
-                var category = await _categoryServices.AddCategory(categoryDto, imagePath);
-
-                if (category == null)
-                {
-                    return BadRequest("Failed to save category.");
-                }
-
-                return Ok(category);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
+            return category == null
+                ? BadRequest("Failed to save category.")
+                : Ok(category);
         }
-
-
-
-
-
-
-
-
-
-        //[HttpPut("UpdateCategory")]
-        //public async Task<ActionResult<categoryDto>> UpdateCategory(int id, AddCategoryDto catDto)
-        //{
-        //    try
-        //    {
-
-        //        if (id <= 0)
-        //        {
-        //            return BadRequest("Invalid ID");
-        //        }
-
-        //        if (catDto == null)
-        //        {
-        //            // إرسال استجابة فارغة مع حالة 404 (Not Found)
-        //            return BadRequest("category shouldn't be empty .");
-        //        }
-
-        //        var tea = await _categoryServices.UpdateCategory(id, catDto);
-        //        if (tea == null)
-        //        {
-        //            return BadRequest("there is no category with that id .");
-        //        }
-
-        //        if (tea == null && catDto == null)
-        //        {
-        //            return BadRequest("category shouldn't be empty .");
-        //        }
-        //        else if (tea == null && catDto != null)
-        //        {
-        //            return BadRequest("Failed to save updated catogory to the database.");
-
-        //        }
-
-
-        //        // إرسال الاستجابة الناجحة مع البيانات
-        //        return Ok(tea);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // في حالة حدوث استثناء أثناء تنفيذ الكود
-        //        // يمكنك تسجيل الخطأ أو إضافة تفاصيل إضافية هنا
-        //        return StatusCode(500, $"Internal server error: {ex.Message}");
-        //    }
-        //}
-
-
 
 
 
@@ -152,51 +40,21 @@ namespace t4tea.Controllers
         [HttpPut("UpdateCategory/{id}")]
         public async Task<ActionResult<categoryDto>> UpdateCategory(int id, [FromForm] AddCategoryDto categoryDto)
         {
-            try
-            {
-                if (id <= 0)
-                {
-                    return BadRequest("Invalid ID");
-                }
+            if (id <= 0)
+                return BadRequest("Invalid ID");
 
-                if (categoryDto == null)
-                {
-                    return BadRequest("Category shouldn't be empty.");
-                }
+            if (categoryDto == null)
+                return BadRequest("Category shouldn't be empty.");
 
-                var existingCategory = await _categoryServices.GetCategoryById(id);
-                if (existingCategory == null)
-                {
-                    return NotFound("No category found.");
-                }
+            var existingCategory = await _categoryServices.GetCategoryById(id);
+            if (existingCategory == null)
+                return NotFound("No category found.");
 
-                string imagePath = existingCategory.ImageUrl; // الاحتفاظ بالصورة القديمة
+            var updatedCategory = await _categoryServices.UpdateCategory(id, categoryDto, categoryDto.Image);
 
-                if (categoryDto.Image != null) // إذا تم رفع صورة جديدة
-                {
-                    // حذف الصورة القديمة إذا كانت موجودة
-                    if (!string.IsNullOrEmpty(existingCategory.ImageUrl))
-                    {
-                        _categoryServices.DeleteImage(existingCategory.ImageUrl);
-                    }
-
-                    // حفظ الصورة الجديدة
-                    imagePath = await _categoryServices.SaveImage(categoryDto.Image);
-                }
-
-                var updatedCategory = await _categoryServices.UpdateCategory(id, categoryDto, imagePath);
-
-                if (updatedCategory == null)
-                {
-                    return BadRequest("Failed to update category.");
-                }
-
-                return Ok(updatedCategory);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
+            return updatedCategory == null
+                ? BadRequest("Failed to update category.")
+                : Ok(updatedCategory);
         }
 
 
@@ -259,31 +117,7 @@ namespace t4tea.Controllers
             }
         }
 
-        //[HttpGet("GetAllCategories")]
-        //public async Task<ActionResult<IReadOnlyList<categoryDto>>> GetAllCategories()
-        //{
-        //    try
-        //    {
-        //        // الحصول على جميع تفاصيل الشاي
-        //        var categories = await _categoryServices.GetAllCategories();
 
-        //        // التحقق إذا كانت البيانات فارغة
-        //        if (categories == null || categories.Count == 0)
-        //        {
-        //            // إرسال استجابة فارغة مع حالة 404 (Not Found)
-        //            return NotFound("No categories found.");
-        //        }
-
-        //        // إرسال الاستجابة الناجحة مع البيانات
-        //        return Ok(categories);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // في حالة حدوث استثناء أثناء تنفيذ الكود
-        //        // يمكنك تسجيل الخطأ أو إضافة تفاصيل إضافية هنا
-        //        return StatusCode(500, $"Internal server error: {ex.Message}");
-        //    }
-        //}
 
         [HttpGet("GetAllCategories")]
         public async Task<ActionResult<IEnumerable<categoryDto>>> GetAllCategories()
@@ -314,107 +148,22 @@ namespace t4tea.Controllers
 
 
 
-
-
-        //[HttpDelete("DeleteCategory/{id}")]
-        //public async Task<ActionResult<IReadOnlyList<categoryDto>>> DeleteCategory(int id)
-        //{
-        //    try
-        //    {
-        //        if (id <= 0)
-        //        {
-        //            return BadRequest("Invalid Id");
-        //        }
-        //        var category = await _categoryServices.GetCategoryById(id);
-
-        //        if (category == null)
-        //        {
-        //            return NotFound("No category found.");
-        //        }
-
-        //        var result = await _categoryServices.DeleteCategory(id);
-        //        if (result == 0 && category == null)
-        //        {
-        //            return NotFound("No tea product found.");
-        //        }
-        //        else if (result == 0 && category != null)
-        //        {
-        //            return NotFound("Failed to delete category from the database .");
-        //        }
-
-        //        var allCategories = await _categoryServices.GetAllCategories();
-        //        return Ok(allCategories);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return StatusCode(500, $"Internal server error: {ex.Message}");
-        //    }
-        //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         [HttpDelete("DeleteCategory/{id}")]
         public async Task<ActionResult> DeleteCategory(int id)
         {
-            try
-            {
-                if (id <= 0)
-                {
-                    return BadRequest("Invalid Id");
-                }
+            if (id <= 0)
+                return BadRequest("Invalid Id");
 
-                var category = await _categoryServices.GetCategoryById(id);
+            var existingCategory = await _categoryServices.GetCategoryById(id);
+            if (existingCategory == null)
+                return NotFound("No category found.");
 
-                if (category == null)
-                {
-                    return NotFound("No category found.");
-                }
+            var result = await _categoryServices.DeleteCategory(id);
 
-                // حذف الصورة من السيرفر إذا كانت موجودة
-                if (!string.IsNullOrEmpty(category.ImageUrl))
-                {
-                    _categoryServices.DeleteImage(category.ImageUrl);
-                }
-
-                var result = await _categoryServices.DeleteCategory(id);
-
-                if (result == 0)
-                {
-                    return NotFound("Failed to delete category.");
-                }
-
-                return Ok("Category deleted successfully.");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
-            }
+            return result == 0
+                ? NotFound("Failed to delete category.")
+                : Ok("Category deleted successfully.");
         }
-
 
 
 

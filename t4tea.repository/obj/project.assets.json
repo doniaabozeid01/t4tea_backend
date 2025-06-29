@@ -2141,11 +2141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\t4tea.repository.csproj",
+      "projectUniqueName": "E:\\alhendal-Websites\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\t4tea.repository.csproj",
       "projectName": "t4tea.repository",
-      "projectPath": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\t4tea.repository.csproj",
+      "projectPath": "E:\\alhendal-Websites\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\t4tea.repository.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\obj\\",
+      "outputPath": "E:\\alhendal-Websites\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2166,8 +2166,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\t4tea.data.csproj": {
-              "projectPath": "E:\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\t4tea.data.csproj"
+            "E:\\alhendal-Websites\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\t4tea.data.csproj": {
+              "projectPath": "E:\\alhendal-Websites\\T4 Tea\\t4tea-backend\\t4tea\\t4tea.data\\t4tea.data.csproj"
             }
           }
         }

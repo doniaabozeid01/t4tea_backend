@@ -9,8 +9,8 @@ namespace t4tea.service.advertise
         Task<AdvertiseDto> GetAdvertiseById(int id);
         Task<IReadOnlyList<AdvertiseDto>> GetAllAdvertises();
         Task<AdvertiseDto> UpdateAdvertise(int id, addAdvertise advertiseDto);
-        void DeleteImage(string imagePath);
-        Task<string> SaveImage(IFormFile image);
+        //void DeleteImage(string imagePath);
+        //Task<string> SaveImage(IFormFile image);
         Task<AdvertiseDto> AddAdvertise(addAdvertise advertiseDto);
 
     }

@@ -49,9 +49,8 @@ namespace t4tea.service.product
                 OldPrice = productDto.OldPrice,
                 Discount = productDto.Discount,
                 Weight = productDto.Weight,
-
-        //NewPrice = productDto.NewPrice,
-        Flavour = productDto.Flavour,
+                //NewPrice = productDto.NewPrice,
+                flavourId = productDto.flavourId,
                 categoryId = productDto.categoryId
             };
         }
@@ -74,7 +73,7 @@ namespace t4tea.service.product
             product.Weight = prodDto.Weight;
 
             //product.NewPrice = prodDto.NewPrice;
-            product.Flavour = prodDto.Flavour;
+            product.flavourId = prodDto.flavourId;
             product.categoryId = prodDto.categoryId;
 
             _unitOfWork.Repository<Products>().Update(product);
@@ -95,7 +94,7 @@ namespace t4tea.service.product
                 Discount = prodDto.Discount,
                 Weight = prodDto.Weight,
                 //NewPrice = prodDto.NewPrice,
-                Flavour = prodDto.Flavour,
+                flavourId = prodDto.flavourId,
                 categoryId = prodDto.categoryId
             };
         }
@@ -197,7 +196,7 @@ namespace t4tea.service.product
                 Rate = product.Rate,
                 OldPrice = product.OldPrice,
                 Discount = discount,
-                Flavour = product.Flavour,
+                flavourId = product.flavourId,
                 Weight = product.Weight,
                 categoryId = product.categoryId
             };

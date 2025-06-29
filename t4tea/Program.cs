@@ -28,6 +28,7 @@ using t4tea.service.Review;
 using t4tea.service.Review.Dtos;
 using t4tea.service.shipAndDis.Dtos;
 using t4tea.service.shipAndDis;
+using t4tea.service.saveAndDeleteImage;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -94,6 +95,7 @@ builder.Services.AddScoped<ICartService, CartService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IReviewsServices, ReviewsServices>();
 builder.Services.AddScoped<IShippingAndDiscountServices, ShippingAndDiscountServices>();
+builder.Services.AddScoped<ISaveAndDeleteImageService, SaveAndDeleteImageService>();
 
 
 builder.Services.AddAutoMapper(typeof(CategoryProfile));

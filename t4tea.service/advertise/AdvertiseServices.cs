@@ -9,6 +9,7 @@ using t4tea.data.Entities;
 using t4tea.repository.Interfaces;
 using t4tea.service.advertise.Dtos;
 using t4tea.service.category.Dtos;
+using t4tea.service.saveAndDeleteImage;
 
 namespace t4tea.service.advertise
 {
@@ -17,25 +18,28 @@ namespace t4tea.service.advertise
 
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
+        private readonly ISaveAndDeleteImageService _imageService;
 
-        public AdvertiseServices(IUnitOfWork unitOfWork, IMapper mapper)
+        public AdvertiseServices(IUnitOfWork unitOfWork, IMapper mapper, ISaveAndDeleteImageService imageService)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
+            _imageService = imageService;
+
         }
 
         public async Task<AdvertiseDto> AddAdvertise(addAdvertise advertiseDto)
         {
             if (advertiseDto.ImagePath == null || advertiseDto.ImagePath.Length == 0)
             {
-                return null; // التأكد من أن الصورة موجودة
+                return null;
             }
 
-            string imagePath = await SaveImage(advertiseDto.ImagePath); // حفظ الصورة واسترجاع مسارها
+            string imageUrl = await _imageService.UploadToCloudinary(advertiseDto.ImagePath);
 
             var advert = new Advertise
             {
-                ImagePath = imagePath // تخزين المسار فقط
+                ImagePath = imageUrl
             };
 
             await _unitOfWork.Repository<Advertise>().AddAsync(advert);
@@ -54,73 +58,78 @@ namespace t4tea.service.advertise
         }
 
 
-        public async Task<string> SaveImage(IFormFile image)
-        {
-            if (image == null || image.Length == 0)
-            {
-                return null;
-            }
+        //public async Task<string> SaveImage(IFormFile image)
+        //{
+        //    if (image == null || image.Length == 0)
+        //    {
+        //        return null;
+        //    }
 
-            try
-            {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
-                if (!Directory.Exists(uploadsFolder))
-                {
-                    Directory.CreateDirectory(uploadsFolder);
-                }
+        //    try
+        //    {
+        //        var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images");
+        //        if (!Directory.Exists(uploadsFolder))
+        //        {
+        //            Directory.CreateDirectory(uploadsFolder);
+        //        }
 
-                var uniqueFileName = $"{Guid.NewGuid()}_{image.FileName}";
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+        //        var uniqueFileName = $"{Guid.NewGuid()}_{image.FileName}";
+        //        var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await image.CopyToAsync(stream);
-                }
+        //        using (var stream = new FileStream(filePath, FileMode.Create))
+        //        {
+        //            await image.CopyToAsync(stream);
+        //        }
 
-                return $"/images/{uniqueFileName}"; // مسار الصورة لتخزينه في قاعدة البيانات
-            }
-            catch (Exception ex)
-            {
-                // يمكن تسجيل الخطأ هنا باستخدام Logger
-                return null;
-            }
-        }
+        //        return $"/images/{uniqueFileName}"; // مسار الصورة لتخزينه في قاعدة البيانات
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // يمكن تسجيل الخطأ هنا باستخدام Logger
+        //        return null;
+        //    }
+        //}
 
-        public void DeleteImage(string imagePath)
-        {
-            if (string.IsNullOrEmpty(imagePath))
-            {
-                return;
-            }
+        //public void DeleteImage(string imagePath)
+        //{
+        //    if (string.IsNullOrEmpty(imagePath))
+        //    {
+        //        return;
+        //    }
 
-            try
-            {
-                var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", imagePath.TrimStart('/'));
-                if (System.IO.File.Exists(fullPath))
-                {
-                    System.IO.File.Delete(fullPath);
-                }
-            }
-            catch (Exception ex)
-            {
-                // يمكن تسجيل الخطأ هنا باستخدام Logger
-            }
-        }
+        //    try
+        //    {
+        //        var fullPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", imagePath.TrimStart('/'));
+        //        if (System.IO.File.Exists(fullPath))
+        //        {
+        //            System.IO.File.Delete(fullPath);
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        // يمكن تسجيل الخطأ هنا باستخدام Logger
+        //    }
+        //}
 
         public async Task<AdvertiseDto> UpdateAdvertise(int id, addAdvertise advertiseDto)
         {
             var advert = await _unitOfWork.Repository<Advertise>().GetByIdAsync(id);
-
             if (advert == null)
             {
                 return null;
             }
 
-            // إذا كان هناك صورة جديدة، احذف القديمة ثم احفظ الجديدة
             if (advertiseDto.ImagePath != null)
             {
-                DeleteImage(advert.ImagePath); // حذف الصورة القديمة
-                advert.ImagePath = await SaveImage(advertiseDto.ImagePath); // حفظ الصورة الجديدة
+                // حذف القديمة من Cloudinary
+                if (!string.IsNullOrEmpty(advert.ImagePath))
+                {
+                    var publicId = _imageService.ExtractPublicIdFromUrl(advert.ImagePath);
+                    _imageService.DeleteFromCloudinary(publicId);
+                }
+
+                // رفع الجديدة
+                advert.ImagePath = await _imageService.UploadToCloudinary(advertiseDto.ImagePath);
             }
 
             _unitOfWork.Repository<Advertise>().Update(advert);
@@ -154,18 +163,22 @@ namespace t4tea.service.advertise
         public async Task<int> DeleteAdvertise(int id)
         {
             var advert = await _unitOfWork.Repository<Advertise>().GetByIdAsync(id);
-
             if (advert == null)
             {
                 return 0;
             }
 
-            // حذف الصورة قبل حذف الإعلان
-            DeleteImage(advert.ImagePath);
+            if (!string.IsNullOrEmpty(advert.ImagePath))
+            {
+                var publicId = _imageService.ExtractPublicIdFromUrl(advert.ImagePath);
+                _imageService.DeleteFromCloudinary(publicId);
+            }
 
             _unitOfWork.Repository<Advertise>().Delete(advert);
             return await _unitOfWork.CompleteAsync();
         }
+
+
 
     }
 }

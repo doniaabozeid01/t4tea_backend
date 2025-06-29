@@ -26,7 +26,8 @@ namespace t4tea.data.Entities
         
         [Column(TypeName = "decimal(18,2)")]
         public decimal NewPrice { get; set; }
-        public Flavour Flavour { get; set; }
+        public int flavourId { get; set; }
+        public Flavours flavour { get; set; }
         public int categoryId { get; set; }
         [JsonIgnore]
         public Categories category { get; set; }

@@ -15,6 +15,7 @@ namespace t4tea.data.Context
     {
         public T4teaDbContext(DbContextOptions<T4teaDbContext> options) : base(options)
         {
+
         }
 
 

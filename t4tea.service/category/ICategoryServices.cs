@@ -11,11 +11,11 @@ namespace t4tea.service.category
     public interface ICategoryServices
     {
         //Task<categoryDto> AddCategory(AddCategoryDto addCategory);
-        Task<categoryDto> AddCategory(AddCategoryDto categoryDto, string imagePath);
-        Task<string> SaveImage(IFormFile image);
-        void DeleteImage(string imagePath);
+        Task<categoryDto> AddCategory(AddCategoryDto categoryDto, IFormFile image);
+        //Task<string> SaveImage(IFormFile image);
+        //void DeleteImage(string imagePath);
         //Task<categoryDto> UpdateCategory(int id, AddCategoryDto addCategory);
-        Task<categoryDto> UpdateCategory(int id, AddCategoryDto categoryDto, string imagePath);
+        Task<categoryDto> UpdateCategory(int id, AddCategoryDto categoryDto, IFormFile newImage);
 
         Task<categoryDto> GetCategoryById(int id);
         Task<IReadOnlyList<categoryDto>> GetAllCategories();

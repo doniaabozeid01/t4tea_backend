@@ -1,0 +1,17 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build
+bin/
+obj/
+
+# Others
+*.log
+*.pdb
+*.dbmdl
+*.cache
+
+# Publish outputs
+wwwroot/images/

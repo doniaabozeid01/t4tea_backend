@@ -346,6 +346,23 @@ namespace t4tea.data.Migrations
                     b.ToTable("FavouriteProducts");
                 });
 
+            modelBuilder.Entity("t4tea.data.Entities.Flavours", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Flavours");
+                });
+
             modelBuilder.Entity("t4tea.data.Entities.Images", b =>
                 {
                     b.Property<int>("Id")
@@ -465,9 +482,6 @@ namespace t4tea.data.Migrations
                     b.Property<decimal>("Discount")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("Flavour")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -487,9 +501,14 @@ namespace t4tea.data.Migrations
                     b.Property<int>("categoryId")
                         .HasColumnType("int");
 
+                    b.Property<int>("flavourId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.HasIndex("categoryId");
+
+                    b.HasIndex("flavourId");
 
                     b.ToTable("Product");
                 });
@@ -701,7 +720,15 @@ namespace t4tea.data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("t4tea.data.Entities.Flavours", "flavour")
+                        .WithMany("products")
+                        .HasForeignKey("flavourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("category");
+
+                    b.Navigation("flavour");
                 });
 
             modelBuilder.Entity("t4tea.data.Entities.Reviews", b =>
@@ -731,6 +758,11 @@ namespace t4tea.data.Migrations
             modelBuilder.Entity("t4tea.data.Entities.Categories", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("t4tea.data.Entities.Flavours", b =>
+                {
+                    b.Navigation("products");
                 });
 
             modelBuilder.Entity("t4tea.data.Entities.OrderRequest", b =>

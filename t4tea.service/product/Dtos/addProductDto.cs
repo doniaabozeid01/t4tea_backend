@@ -18,7 +18,7 @@ namespace t4tea.service.product.Dtos
         public decimal OldPrice { get; set; }
         public decimal Discount { get; set; }
         //public decimal NewPrice { get; set; }
-        public Flavour Flavour { get; set; }
+        public int flavourId { get; set; }
         public int categoryId { get; set; }
     }
 }
