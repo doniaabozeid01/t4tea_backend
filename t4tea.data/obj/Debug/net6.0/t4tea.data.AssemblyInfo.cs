@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("t4tea.data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+970c20514b237fd5546551b35a913b0200514387")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+024039c01dbba89e56d07210ebb5635e0653510b")]
 [assembly: System.Reflection.AssemblyProductAttribute("t4tea.data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("t4tea.data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

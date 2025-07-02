@@ -565,6 +565,125 @@
     ]
   },
   {
+    "ContainingType": "t4tea.Controllers.FlavoursController",
+    "Method": "AddFlavour",
+    "RelativePath": "api/Flavours/AddFlavour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flavourDto",
+        "Type": "t4tea.service.Flavour.Dtos.addFlavourDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "t4tea.service.Flavour.Dtos.addFlavourDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "t4tea.Controllers.FlavoursController",
+    "Method": "DeleteFlavour",
+    "RelativePath": "api/Flavours/DeleteFlavour/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "t4tea.Controllers.FlavoursController",
+    "Method": "GetAllFlavours",
+    "RelativePath": "api/Flavours/GetAllFlavours",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[t4tea.service.Flavour.Dtos.GetFlavourDto, t4tea.service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "t4tea.Controllers.FlavoursController",
+    "Method": "GetFlavourById",
+    "RelativePath": "api/Flavours/GetFlavourById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "t4tea.service.Flavour.Dtos.GetFlavourDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "t4tea.Controllers.FlavoursController",
+    "Method": "UpdateFlavour",
+    "RelativePath": "api/Flavours/UpdateFlavour",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "flavourDto",
+        "Type": "t4tea.service.Flavour.Dtos.addFlavourDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "t4tea.service.Flavour.Dtos.GetFlavourDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "t4tea.Controllers.PaymentController",
     "Method": "CreateOrder",
     "RelativePath": "api/Payment/CreateOrder",
