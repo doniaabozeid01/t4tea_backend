@@ -149,7 +149,7 @@ namespace t4tea.Controllers
 
 
 
-        [HttpPut("UpdateFlavour")]
+        [HttpPut("UpdateFlavour/{id}")]
         public async Task<ActionResult<GetFlavourDto>> UpdateFlavour (int id, addFlavourDto flavourDto)
         {
             try
