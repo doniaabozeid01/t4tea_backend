@@ -655,7 +655,7 @@
   {
     "ContainingType": "t4tea.Controllers.FlavoursController",
     "Method": "UpdateFlavour",
-    "RelativePath": "api/Flavours/UpdateFlavour",
+    "RelativePath": "api/Flavours/UpdateFlavour/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -663,7 +663,7 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       },
       {
         "Name": "flavourDto",
