@@ -1,8 +1,9 @@
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using t4tea.data.Context;
 using t4tea.data.Entities;
 using t4tea.repository.Interfaces;
@@ -33,8 +34,7 @@ using t4tea.service.Flavour;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// 1. Add Services
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<T4teaDbContext>(options =>
@@ -44,17 +44,15 @@ builder.Services.AddDbContext<T4teaDbContext>(options =>
 
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
-    options.Password.RequireDigit = true; // ??? ?? ????? ??? ???
-    options.Password.RequiredLength = 6;  // ??? ???? ?????? (????? 6)
-    options.Password.RequireLowercase = true; // ??? ?? ????? ??? ??? ????
-    options.Password.RequireUppercase = false; // ?? ????? ??? ??? ????
-    options.Password.RequireNonAlphanumeric = false; // ?? ???? ????? ????
-    options.Password.RequiredUniqueChars = 1; // ??? ?? ???? ???? ??? ????? ??? ???? ?????
+    options.Password.RequireDigit = true;
+    options.Password.RequiredLength = 6;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredUniqueChars = 1;
 })
-    .AddEntityFrameworkStores<T4teaDbContext>()
-    .AddDefaultTokenProviders();
-
-
+.AddEntityFrameworkStores<T4teaDbContext>()
+.AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -69,23 +67,16 @@ builder.Services.AddAuthentication(options =>
         ValidateAudience = true,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        ValidIssuer = builder.Configuration["Jwt:Issuer"], // ??????? ????????? ?? config
-        ValidAudience = builder.Configuration["Jwt:Audience"], // ??????? ????????? ?? config
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
 
-
-
-
-
-
-
-
+// 2. Dependency Injection
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<ICategoryServices, CategoryServices>();
 builder.Services.AddScoped<IProductServices, ProductServices>();
-builder.Services.AddScoped<IBenifitServices, BenifitServices>();
 builder.Services.AddScoped<IBenifitServices, BenifitServices>();
 builder.Services.AddScoped<IAdvertiseServices, AdvertiseServices>();
 builder.Services.AddScoped<IImagesServices, ImagesServices>();
@@ -99,7 +90,7 @@ builder.Services.AddScoped<IFlavourServices, FlavourServices>();
 builder.Services.AddScoped<IShippingAndDiscountServices, ShippingAndDiscountServices>();
 builder.Services.AddScoped<ISaveAndDeleteImageService, SaveAndDeleteImageService>();
 
-
+// 3. AutoMapper
 builder.Services.AddAutoMapper(typeof(CategoryProfile));
 builder.Services.AddAutoMapper(typeof(productProfile));
 builder.Services.AddAutoMapper(typeof(BenifitProfile));
@@ -110,47 +101,74 @@ builder.Services.AddAutoMapper(typeof(CartProfile));
 builder.Services.AddAutoMapper(typeof(ReviewProfile));
 builder.Services.AddAutoMapper(typeof(ShippingProfile));
 
+// 4. Swagger (مع دعم JWT)
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "T4Tea API", Version = "v1" });
 
+    // دعم JWT
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "Enter JWT token like: Bearer {your token}",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
+    });
 
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-
+// 5. CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", builder =>
-        builder.AllowAnyOrigin() // ?????? ??? ????
-               .AllowAnyHeader() // ?????? ??? ??????
-               .AllowAnyMethod()); // ?????? ??? ????? HTTP
+        builder.AllowAnyOrigin()
+               .AllowAnyHeader()
+               .AllowAnyMethod());
 });
-
-
-
 
 var app = builder.Build();
 
+// إعداد البورت (مفيد لـ Render أو أي سيرفر بيدي port في env variable)
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 builder.WebHost.UseUrls($"http://*:{port}");
 
+// Middleware pipeline
 app.UseCors("AllowAll");
-
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
 
 app.UseStaticFiles();
 
+app.UseSwagger();
+app.UseSwaggerUI();
+
+// ✅ استثناء swagger من التوثيق
+app.Use(async (context, next) =>
+{
+    if (context.Request.Path.StartsWithSegments("/swagger"))
+    {
+        context.User = new System.Security.Claims.ClaimsPrincipal();
+    }
+
+    await next();
+});
+
 app.UseHttpsRedirection();
 
-app.UseAuthentication(); // ?????? ???????
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

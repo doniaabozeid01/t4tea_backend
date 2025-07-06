@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("t4tea.service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+024039c01dbba89e56d07210ebb5635e0653510b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f218cdeb75a1992fbbb4da1ffac3ad484f2d0688")]
 [assembly: System.Reflection.AssemblyProductAttribute("t4tea.service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("t4tea.service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
